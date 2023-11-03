@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif , sans-serif;
+            background: #242526;
+            background-repeat:no-repeat;
+            color: #f8f2f2f8;
+        }
+        .post-indicator {
+            cursor: default;
+            color: #f8f2f2f8;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 35px;
+            position: absolute ;
+            left:1%;
+            top: 1px;
+            font-weight: bold;
+        }
+        .post-indicator i {
+            color:#5d71e498 ;
+        }
+
+        .post {
+            background-color: #373838;
+            border: 1px solid #cccccc00;
+            border-radius: 25px;
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .post-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .bullet-list {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .number-list {
+            font-family: Helvetica;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 40px;
+            padding: 30px;
+        }
+        .nav-menu {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #5d71e498;
+            border: 1px solid #cccccc00;
+            border-radius: 30px;
+            padding: 10px;
+            display: flex; /* Align items horizontally */
+        }
+
+        .nav-item {
+            font-size: 20px;
+            color: #fff6f6;
+            margin: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .nav-item:hover {
+            text-decoration:wavy;
+            transform: scale(1.1);
+        }
+        .blog1 {
+            font-size: 15px;
+            text-align:justify;
+            margin: 10px 10px 10px 10px;
+        }
+        .number-list video {
+            border: 4px solid #e8ecf000 ;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="post-indicator"> <i class="fas fa-user"></i> Posts</div>
+    <div class="horizontal-line"></div>
+    <div class="post">
+        <div class="bullet-list">
+            <ul>
+               <li> Post 1: My First Post </li>
+            </ul>
+        
+        </div>
+        <ol class="number-list">
+            <li><strong>Blog <i class="fas fa-thumbtack"></i></strong><br><br>
+                <div class="blog1">
+                    
+                    Embarking on my journey as a web developer has been an exhilarating experience. I started by delving into front-end development, mastering the basics of HTML, CSS, and JavaScript through online courses and practice projects. Joining web development communities and setting achievable goals has been instrumental in my progress, as has patience and persistence through moments of frustration. My first project, a personal portfolio website, marked a significant milestone, and I'm eager to continue creating, innovating, and exploring the endless possibilities this field offers. Whether you're a seasoned developer or just beginning, I encourage you to embrace the challenges, seek knowledge, and never stop exploring the web development universe—it's a thrilling journey with boundless opportunities for learning and creativity..<br><br></pre></div></li>
+            <li><strong>Video</strong><br><br>
+                <video width="600" height="300" controls>
+                <source src="af.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              
+            </li>
+        </ol>
+    </div>
+
+    <div class="post">
+        <ul class="bullet-list">
+            <li>Post 2:</li>
+
+        </ul>
+        <ol class="number-list">
+            <li>Blog</li>
+            <li>Vlog</li>
+        </ol>
+    </div>
+    <div class="horizontal-line2"></div>
+
+    <!-- Navigation menu -->
+    <div class="nav-menu">
+        <a href="index.html" class="nav-item"><i class="fas fa-home home-icon"></i></a>
+        <a href="profile.html" class="nav-item"><i class="fas fa-user"></i></a>
+        <a href="gallery.html" class="nav-item"><i class="fas fa-image"></i></a>
+    </div>
+</body>
+</html>

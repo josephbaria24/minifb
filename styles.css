@@ -1,0 +1,96 @@
+body {
+            font-family:'Segoe UI', sans-serif;
+            text-align: center;
+            background: #242526;
+            background-size: cover; 
+            background-repeat: no-repeat;
+            
+           
+        }
+        #container {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #name {
+            color: #ffffff;
+            font-size: 120px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding: 20px;
+            background-color: #373838;
+            cursor:pointer;
+            border: 1px outset hsla(0, 9%, 75%, 0.534);
+            border-top-left-radius:100px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 100px;
+            border-width: 0px;
+        }
+        #name:hover {
+            transform: scale(1.01);
+            transition: 0.4s;
+        }
+		#course {
+            color: #fdfbffc7;
+            font-size: 30px;
+            margin-bottom: 10px;
+            cursor:default;
+            font-variant: small-caps;
+        }
+		#block {
+            color: #f1f1f1cc;
+            font-size: 30px;
+            margin-bottom: 50px;
+            cursor:default;
+            font-variant: small-caps;
+        }
+		.section-link {
+			text-decoration: none;
+			color: inherit;
+		}
+		#options-box {
+			display: flex;
+			align-items: center;
+			margin-top: 20px;
+		}
+        .label {
+            cursor: pointer;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        
+
+        .section {
+            color: #ffffff;
+            font-size: 40px;
+            margin: 20px;
+            padding: 30px;
+            border: 1px solid  #cbd3d600;
+            border-radius: 10px;
+            background-color: #5d71e498;
+        }
+        .section:hover {
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
+
+        .home-indicator {
+            cursor: default;
+            color: #f8f2f2f8;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 35px;
+            position: absolute ;
+            left:1%;
+            top: 1px;
+            font-weight: bold;
+        }
+        .home-indicator i {
+            color:#5d71e498 ;
+        }
